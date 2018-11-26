@@ -1,0 +1,53 @@
+{
+  "name": "vue-slider-gif-maker",
+  "version": "0.1.0",
+  "main": "./src/index.vue",
+  "license": "MIT",
+  "bin": {
+    "tt": "test.js"
+  },
+  "scripts": {
+    "dev": "npx vue-cli-service serve",
+    "postinstall": "chmod +x postinstall.js && node postinstall.js"
+  },
+  "dependencies": {
+    "postinstall": "^0.4.2",
+    "shelljs": "^0.8.3",
+    "vue": "^2.5.17",
+    "vue-slider-component": "^2.8.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "vue-template-compiler": "^2.5.17",
+    "worker-loader": "^2.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
