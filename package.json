@@ -3,12 +3,21 @@
   "version": "0.1.0",
   "main": "./src/index.vue",
   "license": "MIT",
-  "bin": {
-    "tt": "test.js"
-  },
   "scripts": {
     "dev": "npx vue-cli-service serve",
     "postinstall": "chmod +x postinstall.js && node postinstall.js"
+  },
+  "keywords": [
+      "vue",
+      "gif",
+      "vue-gif",
+      "vue-gif-maker",
+      "vue-component",
+      "easy-team"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easy-team/vue-slider-gif-maker"
   },
   "dependencies": {
     "postinstall": "^0.4.2",
