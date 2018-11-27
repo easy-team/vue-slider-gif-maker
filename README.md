@@ -43,7 +43,7 @@ import vueSliderGifMaker from 'vue-slider-gif-maker'
 
 ```
 
-### 自动截取生成GIF
+### 自动截取生成GIF
 
 ![mergeGifVideo](https://raw.githubusercontent.com/easy-team/vue-slider-gif-maker/master/public/20181127115442.gif)
 
