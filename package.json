@@ -1,6 +1,6 @@
 {
   "name": "vue-slider-gif-maker",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "./src/index.vue",
   "license": "MIT",
   "scripts": {
@@ -8,12 +8,12 @@
     "postinstall": "chmod +x postinstall.js && node postinstall.js"
   },
   "keywords": [
-      "vue",
-      "gif",
-      "vue-gif",
-      "vue-gif-maker",
-      "vue-component",
-      "easy-team"
+    "vue",
+    "gif",
+    "vue-gif",
+    "vue-gif-maker",
+    "vue-component",
+    "easy-team"
   ],
   "repository": {
     "type": "git",
