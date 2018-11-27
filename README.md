@@ -31,6 +31,7 @@ What`s your static asset dir(Current dir is "/current")? Please base on current 
 
 
 
+
 ```html
 <template>
   <div>
@@ -41,6 +42,15 @@ What`s your static asset dir(Current dir is "/current")? Please base on current 
 import vueSliderGifMaker from 'vue-slider-gif-maker'
 
 ```
+
+### 自动截取生成GIF
+
+![mergeGifVideo](https://raw.githubusercontent.com/easy-team/vue-slider-gif-maker/master/public/20181127115442.gif)
+
+
+### 最终输出结果
+
+![gifResult](https://raw.githubusercontent.com/easy-team/vue-slider-gif-maker/master/public/20181127115444.gif)
 
 
 ### Props
