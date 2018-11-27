@@ -42,6 +42,7 @@ import vueSliderGifMaker from 'vue-slider-gif-maker'
 
 ```
 
+
 ### Props
 | Props | 类型 | 默认值 | 描述 | 参数描述 |
 |-|-|-|-|-|

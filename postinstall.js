@@ -1,5 +1,6 @@
 var shell = require('shelljs');
 var inquirer = require('inquirer');
+if (!process.env.PWD.match(/\/node_modules.*$/)) return;
 var currentDir = process.env.PWD.replace(/\/node_modules.*$/, '');
 inquirer
   .prompt([{
