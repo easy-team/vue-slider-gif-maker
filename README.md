@@ -52,6 +52,6 @@ import vueSliderGifMaker from 'vue-slider-gif-maker'
 ### Methods
 | Methods | 使用条件 | 入参 | 效果 | 返回 |
 |-|-|-|-|-|
-| screenShot | maker-type='click' |无 | 截屏 | {img:<Img DOM>,blob:<Blob>图片二进制内容} |
-| mergeGif | maker-type='click' | 同 https://github.com/jnordberg/gif.js | 截屏 | {gif:<Img DOM>,blob:<Blob>图片二进制内容} |
-| autoMergeGif | maker-type='drop' | {frame:<Number>截取时间段内取几张图片}其他参数同上 | 选定区间后自动截屏 | <Promse> {gif:<Img DOM>,blob:<Blob>图片二进制内容,imgMap<Array>： ImgDom的Array} |
+| screenShot | maker-type='click' |无 | 截图 | {img:(Img DOM),blob:(图片二进制内容)} |
+| mergeGif | maker-type='click' | 同 https://github.com/jnordberg/gif.js | 生成gif | {gif:(Img DOM),blob:(图片二进制内容)} |
+| autoMergeGif | maker-type='drop' | {frame:<Number>截取时间段内取几张图片}其他参数同上 | 选定区间后自动截图并生成gif | <Promse> {gif:(Img DOM),blob:(图片二进制内容),imgMap:(ImgDom的Array)} |
