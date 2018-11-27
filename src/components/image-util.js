@@ -1,4 +1,5 @@
-require('./gif.js');
+const _GIF = require('./gif.js');
+const GIF = window.GIF || _GIF;
 (function (window) {
   var screenShotImages = [];
   function dataURLtoBlob(dataurl) {
@@ -55,7 +56,7 @@ require('./gif.js');
 
   function createGif(imageElementList, options, callback) {
     var config = Object.assign({}, { workers: 2, quality: 10 }, options)
-    var gif = new window.GIF(config);
+    var gif = new GIF(config);
     imageElementList.forEach(imageElement => {
       gif.addFrame(imageElement, { delay: config.delay || 500, copy: config.copy || false, dispose: config.dispose||-1});
     });
