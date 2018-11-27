@@ -15,7 +15,7 @@ npm i
 npm run dev
 ```
 ## Use it
-由于组件需要依赖放置于静态资源目录下的[worker](https://www.w3schools.com/html/html5_webworkers.asp)文件。安装后将会自动收到copy文件到本地静态资源目录的提示。
+由于组件需要依赖放置于静态资源目录下的[worker](https://www.w3schools.com/html/html5_webworkers.asp)文件。安装后将会自动收到copy文件到本地静态资源目录的提示。
 
 或者也可手动获取本repositorie中[asset](https://github.com/easy-team/vue-slider-gif-maker/tree/master/asset)目录下的[gif.worker.js](https://github.com/easy-team/vue-slider-gif-maker/blob/master/asset/gif.worker.js)文件，并放置在本地项目的静态资源目录下。
 > 为什么需要有一个worker文件，[点击这里了解更多](https://github.com/jnordberg/gif.js#usage)
